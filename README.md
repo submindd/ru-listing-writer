@@ -50,11 +50,13 @@ See [Claude Code adapter](adapters/claude-code.md).
 
 ## WorkBuddy installation
 
-WorkBuddy is based on Claude Code. Install this folder as a Claude Code skill inside the relevant WorkBuddy workspace. See [WorkBuddy adapter](adapters/workbuddy.md).
+Download the release asset `ru-listing-writer.zip`, open WorkBuddy's skill import dialog, and upload the ZIP. The archive contains `SKILL.md` at its root with the required YAML `name` and `description`, plus the referenced scripts and guidance. See [WorkBuddy adapter](adapters/workbuddy.md).
 
-## Doubao / Coze usage
+## Doubao / Coze installation
 
-Doubao and Coze are documented here as prompt/knowledge-file adaptations, not as native Agent Skill installations. See [Doubao/Coze adapter](adapters/doubao-coze.md).
+Download the release asset `ru-listing-writer.zip` and upload it through the platform's skill import dialog. The ZIP is packaged with `SKILL.md` at its root for direct import. See [Doubao/Coze adapter](adapters/doubao-coze.md).
+
+If a particular product edition does not expose skill import, use the fallback prompt/knowledge-file method documented in the adapter.
 
 ## Validation
 
