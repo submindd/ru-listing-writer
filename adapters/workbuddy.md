@@ -1,13 +1,22 @@
-# WorkBuddy
+# WorkBuddy skill import
 
-WorkBuddy uses Claude Code as its agent runtime, so this repository can be installed as a Claude Code project skill.
+## Preferred installation
 
-Place the complete folder inside the WorkBuddy workspace at:
+1. Download `ru-listing-writer.zip` from the GitHub release.
+2. Open WorkBuddy's `导入技能` dialog.
+3. Drag the ZIP into the upload area or choose it from the file picker.
+4. Confirm that the imported skill name is `ru-listing-writer`.
+
+The ZIP contains `SKILL.md` at its root with YAML `name` and `description`, together with `references/` and `scripts/`.
+
+## Usage
+
+Invoke `ru-listing-writer`, state WB/Wildberries or OZON, and attach the required keyword screenshots, competitor screenshot, and ordered ecommerce image set.
+
+## Alternative Claude Code installation
+
+For WorkBuddy setups that expose the underlying Claude Code workspace, the repository folder can also be placed at:
 
 ```text
 .claude/skills/ru-listing-writer/
 ```
-
-Keep the folder structure intact. Start a WorkBuddy task that explicitly names `ru-listing-writer`, attach all required screenshots and ecommerce images, and identify the target marketplace.
-
-If a particular WorkBuddy setup does not expose project skills, place the canonical `SKILL.md` content in that workspace's `CLAUDE.md` or agent instructions and keep `references/` and `scripts/` available to the runtime.
